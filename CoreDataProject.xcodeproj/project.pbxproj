@@ -8,22 +8,44 @@
 
 /* Begin PBXBuildFile section */
 		60CA54A71DF96FE90039606D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60CA54A61DF96FE90039606D /* AppDelegate.swift */; };
-		60CA54A91DF96FE90039606D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60CA54A81DF96FE90039606D /* ViewController.swift */; };
+		60CA54A91DF96FE90039606D /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60CA54A81DF96FE90039606D /* MainVC.swift */; };
 		60CA54AC1DF96FE90039606D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60CA54AA1DF96FE90039606D /* Main.storyboard */; };
 		60CA54AF1DF96FEA0039606D /* CoreDataProject.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 60CA54AD1DF96FEA0039606D /* CoreDataProject.xcdatamodeld */; };
 		60CA54B11DF96FEA0039606D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 60CA54B01DF96FEA0039606D /* Assets.xcassets */; };
 		60CA54B41DF96FEA0039606D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60CA54B21DF96FEA0039606D /* LaunchScreen.storyboard */; };
+		60CA54E51DF9790D0039606D /* Image+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60CA54DD1DF9790D0039606D /* Image+CoreDataClass.swift */; };
+		60CA54E61DF9790D0039606D /* Image+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60CA54DE1DF9790D0039606D /* Image+CoreDataProperties.swift */; };
+		60CA54E71DF9790D0039606D /* Store+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60CA54DF1DF9790D0039606D /* Store+CoreDataClass.swift */; };
+		60CA54E81DF9790D0039606D /* Store+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60CA54E01DF9790D0039606D /* Store+CoreDataProperties.swift */; };
+		60CA54E91DF9790D0039606D /* ItemType+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60CA54E11DF9790D0039606D /* ItemType+CoreDataClass.swift */; };
+		60CA54EA1DF9790D0039606D /* ItemType+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60CA54E21DF9790D0039606D /* ItemType+CoreDataProperties.swift */; };
+		60CA54EB1DF9790D0039606D /* Item+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60CA54E31DF9790D0039606D /* Item+CoreDataClass.swift */; };
+		60CA54EC1DF9790D0039606D /* Item+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60CA54E41DF9790D0039606D /* Item+CoreDataProperties.swift */; };
+		60CA54EE1DF982DC0039606D /* tesla.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 60CA54ED1DF982DC0039606D /* tesla.jpg */; };
+		60CA54F11DF9834F0039606D /* MaterialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60CA54F01DF9834F0039606D /* MaterialView.swift */; };
+		60CA54F31DF986120039606D /* ItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60CA54F21DF986120039606D /* ItemCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		60CA54A31DF96FE90039606D /* CoreDataProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoreDataProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		60CA54A61DF96FE90039606D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		60CA54A81DF96FE90039606D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		60CA54A81DF96FE90039606D /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
 		60CA54AB1DF96FE90039606D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		60CA54AE1DF96FEA0039606D /* CoreDataProject.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CoreDataProject.xcdatamodel; sourceTree = "<group>"; };
 		60CA54B01DF96FEA0039606D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		60CA54B31DF96FEA0039606D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		60CA54B51DF96FEA0039606D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		60CA54DD1DF9790D0039606D /* Image+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Image+CoreDataClass.swift"; sourceTree = "<group>"; };
+		60CA54DE1DF9790D0039606D /* Image+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Image+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		60CA54DF1DF9790D0039606D /* Store+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Store+CoreDataClass.swift"; sourceTree = "<group>"; };
+		60CA54E01DF9790D0039606D /* Store+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Store+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		60CA54E11DF9790D0039606D /* ItemType+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ItemType+CoreDataClass.swift"; sourceTree = "<group>"; };
+		60CA54E21DF9790D0039606D /* ItemType+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ItemType+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		60CA54E31DF9790D0039606D /* Item+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Item+CoreDataClass.swift"; sourceTree = "<group>"; };
+		60CA54E41DF9790D0039606D /* Item+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Item+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		60CA54ED1DF982DC0039606D /* tesla.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = tesla.jpg; path = ../tesla.jpg; sourceTree = "<group>"; };
+		60CA54F01DF9834F0039606D /* MaterialView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaterialView.swift; sourceTree = "<group>"; };
+		60CA54F21DF986120039606D /* ItemCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +62,8 @@
 		60CA549A1DF96FE70039606D = {
 			isa = PBXGroup;
 			children = (
+				60CA54EF1DF983390039606D /* View */,
+				60CA54CB1DF977730039606D /* Models */,
 				60CA54A51DF96FE90039606D /* CoreDataProject */,
 				60CA54A41DF96FE90039606D /* Products */,
 			);
@@ -57,14 +81,47 @@
 			isa = PBXGroup;
 			children = (
 				60CA54A61DF96FE90039606D /* AppDelegate.swift */,
-				60CA54A81DF96FE90039606D /* ViewController.swift */,
+				60CA54A81DF96FE90039606D /* MainVC.swift */,
 				60CA54AA1DF96FE90039606D /* Main.storyboard */,
+				60CA54ED1DF982DC0039606D /* tesla.jpg */,
 				60CA54B01DF96FEA0039606D /* Assets.xcassets */,
 				60CA54B21DF96FEA0039606D /* LaunchScreen.storyboard */,
 				60CA54B51DF96FEA0039606D /* Info.plist */,
 				60CA54AD1DF96FEA0039606D /* CoreDataProject.xcdatamodeld */,
 			);
 			path = CoreDataProject;
+			sourceTree = "<group>";
+		};
+		60CA54CB1DF977730039606D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				60CA54DD1DF9790D0039606D /* Image+CoreDataClass.swift */,
+				60CA54DF1DF9790D0039606D /* Store+CoreDataClass.swift */,
+				60CA54E11DF9790D0039606D /* ItemType+CoreDataClass.swift */,
+				60CA54E31DF9790D0039606D /* Item+CoreDataClass.swift */,
+				60CA54CC1DF9777A0039606D /* Generated */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		60CA54CC1DF9777A0039606D /* Generated */ = {
+			isa = PBXGroup;
+			children = (
+				60CA54DE1DF9790D0039606D /* Image+CoreDataProperties.swift */,
+				60CA54E01DF9790D0039606D /* Store+CoreDataProperties.swift */,
+				60CA54E21DF9790D0039606D /* ItemType+CoreDataProperties.swift */,
+				60CA54E41DF9790D0039606D /* Item+CoreDataProperties.swift */,
+			);
+			name = Generated;
+			sourceTree = "<group>";
+		};
+		60CA54EF1DF983390039606D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				60CA54F01DF9834F0039606D /* MaterialView.swift */,
+				60CA54F21DF986120039606D /* ItemCell.swift */,
+			);
+			name = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -99,7 +156,7 @@
 				TargetAttributes = {
 					60CA54A21DF96FE70039606D = {
 						CreatedOnToolsVersion = 8.1;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 					};
 				};
 			};
@@ -127,6 +184,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				60CA54B41DF96FEA0039606D /* LaunchScreen.storyboard in Resources */,
+				60CA54EE1DF982DC0039606D /* tesla.jpg in Resources */,
 				60CA54B11DF96FEA0039606D /* Assets.xcassets in Resources */,
 				60CA54AC1DF96FE90039606D /* Main.storyboard in Resources */,
 			);
@@ -139,9 +197,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				60CA54A91DF96FE90039606D /* ViewController.swift in Sources */,
+				60CA54F31DF986120039606D /* ItemCell.swift in Sources */,
+				60CA54EB1DF9790D0039606D /* Item+CoreDataClass.swift in Sources */,
+				60CA54A91DF96FE90039606D /* MainVC.swift in Sources */,
+				60CA54E71DF9790D0039606D /* Store+CoreDataClass.swift in Sources */,
+				60CA54F11DF9834F0039606D /* MaterialView.swift in Sources */,
+				60CA54EA1DF9790D0039606D /* ItemType+CoreDataProperties.swift in Sources */,
+				60CA54E61DF9790D0039606D /* Image+CoreDataProperties.swift in Sources */,
 				60CA54A71DF96FE90039606D /* AppDelegate.swift in Sources */,
+				60CA54E91DF9790D0039606D /* ItemType+CoreDataClass.swift in Sources */,
+				60CA54E81DF9790D0039606D /* Store+CoreDataProperties.swift in Sources */,
 				60CA54AF1DF96FEA0039606D /* CoreDataProject.xcdatamodeld in Sources */,
+				60CA54EC1DF9790D0039606D /* Item+CoreDataProperties.swift in Sources */,
+				60CA54E51DF9790D0039606D /* Image+CoreDataClass.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,6 +332,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = CoreDataProject/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.gammit.apps.CoreDataProject;
@@ -276,6 +345,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = CoreDataProject/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.gammit.apps.CoreDataProject;
